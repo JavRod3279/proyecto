@@ -1,0 +1,206 @@
+@font-face {
+    font-family: laviossa;
+    src: url(font\Laviossa-Medium.otf);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    background: #000000;
+    height: 80px;
+    width: 100%;
+}
+
+.navbar-brand {
+    position: absolute;
+    padding: 10px 50px;
+}
+
+.logo {
+    height: 60px;
+}
+
+.navbar-ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: laviossa;
+}
+
+li a.active,
+li a:hover {
+    transition: 5s;
+    background: blanchedalmond;
+    color: black;
+
+}
+
+.checkbtn {
+    font-size: 50px;
+    color: #b1e4f8;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    border-radius: 50px;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+@media (max-width: 952px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul.navbar-ul {
+        position: absolute;
+        width: 40%;
+        height: 100vh;
+        background: darkslategray;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 3s;
+        z-index: 1;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    li a:hover,
+    li a.active {
+        transition: 5s;
+        background: rgb(213, 205, 255);
+        color: black;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    .title h1 {
+        font-size: 15px;
+    }
+
+    .container {
+        width: 200px;
+        padding: 2px;
+        border-radius: 50px;
+    }
+
+    ul.slider {
+        position: absolute;
+        width: 200px;
+        height: 110px;
+    }
+
+    ul.slider li img {
+        position: absolute;
+        top: auto;
+        z-index: 0;
+    }
+
+}
+
+body{
+    background-image: url(../frontend/img/nosotros/fondonosotros.png);
+    }
+
+.container{
+    margin:auto;
+    margin-top: 15px;
+    background-color: #ffffff77;
+    width: 800px;
+    padding: 30px;  
+    border-radius: 50px;
+    display:flexbox;
+}
+
+ul,li{
+    margin:0;
+    padding: 0;
+}
+ul.slider{
+    position: relative;
+    width: 740px;
+    height: 740px;
+}
+ul.slider li{
+    position:absolute;
+    left:0;
+    top:0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: .5s;
+}
+ul.slider li img{
+    width: 100%;
+    height: 720px;
+    box-shadow: 0px 0px 20px 5px;
+    border-radius: 50px;
+}
+ul.slider li:first-child{
+    opacity: 1;
+}
+ul.slider li:target{
+    opacity: 1;
+}
+ul.menu{
+    text-align: center;
+    margin:20px;
+    }
+ul.menu li{
+    display:inline-block;
+    text-align: center;
+    line-height: 35px;
+}
+ul.menu li a{
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: laviossa;
+    background: #313794c2;
+}
+ul.menu li a:hover{
+    background: blanchedalmond;
+    color:black;
+    transition: 3s;
+}
+.imgdibpin{
+    width: 100%;
+    height: 720px;
+}
