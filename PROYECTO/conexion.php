@@ -1,7 +1,7 @@
 <?php
 
 $servername = "localhost";
-$database = "mi_proyecto";
+$database = "matissestfa";
 $username = "root";
 $password = "";
 // Create connection

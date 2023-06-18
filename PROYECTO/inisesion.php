@@ -2,7 +2,7 @@
 
 include 'conexion.php';
 
-$query = mysqli_query($conn, "SELECT * FROM usuarios");
+$query = mysqli_query($conn, "SELECT * FROM talleristas");
 ?>
 
 <!DOCTYPE html>
