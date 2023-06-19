@@ -23,13 +23,21 @@ $query = mysqli_query($conn, "SELECT * FROM talleristas");
     <header>
         <a class="navbar-brand" href="#menu">
             <img src="img\logo_nuevo.png" alt="" width="80" height="64" class="logo">
+            <div>
+                
+            </div>
         </a>
     </header>
     <div class="container">
         <div class="contdatbasic">
             <div class="datosdoc">
                 <label for="">TIPO ID</label>
-                <input name="tipoid" type="text" id="tipoid">
+                <select name="selcid"  id = "selcid">
+                    <option value="ced">CEDULA DE CIUDADANIA</option>
+                    <option value="tarid">TARJETA DE IDENTIDAD</option>
+                    <option value="cedext">CEDULA DE EXTRANJERIA</option>
+                    <option value="pasport">PASAPORTE</option>
+                </select>
                 <label for="">NUMERO</label>
                 <input name="numberdoc" id="numberdoc" type="number">
             </div>
