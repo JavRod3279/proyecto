@@ -13,8 +13,9 @@
     
 }
 body{
-    background-color: rgb(189, 189, 189);
-    height: 100vh;
+    background-image: url(../frontend/img/LogoMatissesFondoBlanco2.png);
+    background-position: top;
+    background-repeat:no-repeat;
 }
 .container{
     position: absolute;
@@ -24,7 +25,8 @@ body{
     width: 500px;
     height: 60vh;
     border-radius: 50px;
-    background-image: url(../frontend/img/Mesa_de_trabajo3.jpg);
+    background-color: rgba(255, 254, 254, 0.651);
+    box-shadow: 0px 0px 20px 5px;
     background-position: center;
     }
 

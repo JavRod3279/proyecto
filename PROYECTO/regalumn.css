@@ -1,0 +1,297 @@
+@font-face {
+    font-family: laviossa;
+    src: url(font\Laviossa-Medium.otf);
+    font-family: lato;
+    src: url(font/Lato-Regular.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+
+    background-image: url(../frontend/img/LogoMatissesFondoBlanco2.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100%;
+    display: inline-flex;
+}
+section {
+
+    min-height: 100vh;
+    min-width: 100%;
+    display: inline-flex;
+    position: absolute;
+}
+header {
+    background: #dfdfdfc2;
+    height: 80px;
+    width: 100%;
+}
+.container {
+    min-height: 100vh;
+    margin: 50px;
+    margin-top: 100px;
+    height: 750px;
+    width: 1200px;
+    position: absolute;
+    display: flex;
+}
+.contdatbasic {
+    margin: 50px;
+    margin-top: 50px;
+    height: 650px;
+    width: 1100px;
+    position: absolute;
+    display: flex;
+    border-radius: 20px;
+    background-color: rgba(240, 255, 255, 0.781);
+    box-shadow: 0px 0px 20px 5px;
+}
+.datosdoc {
+    margin: 10px;
+    margin-top: 10px;
+    height: 50px;
+    width: 1080px;
+    position: absolute;
+    display: flex;
+}
+.datosdoc label {
+    height: 100%;
+    width: 150px;
+    background-color: rgb(117, 117, 117);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border: solid 2px;
+    font-family: laviossa;
+    font-size: 15px;
+}
+.datosdoc input {
+    height: 100%;
+    width: 390px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(59, 59, 59);
+    text-align: center;
+    padding: 15px;
+    border: solid 2px;
+    font-family: lato;
+}
+.nombre {
+    margin: 10px;
+    margin-top: 90px;
+    height: 50px;
+    width: 1080px;
+    position: absolute;
+    display: flex;
+}
+.nombre label {
+    height: 100%;
+    width: 150px;
+    background-color: rgb(117, 117, 117);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border: solid 2px;
+    font-family: laviossa;
+    font-size: 15px;
+}
+.nombre input {
+    height: 100%;
+    width: 930px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(59, 59, 59);
+    text-align: center;
+    padding: 15px;
+    border: solid 2px;
+    font-family: lato;
+}
+.datoscont {
+    margin: 10px;
+    margin-top: 170px;
+    height: 50px;
+    width: 1080px;
+    position: absolute;
+    display: flex;
+}
+.datoscont label {
+    height: 100%;
+    width: 150px;
+    background-color: rgb(117, 117, 117);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border: solid 2px;
+    font-family: laviossa;
+    font-size: 15px;
+}
+.datoscont input {
+    height: 100%;
+    width: 390px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(59, 59, 59);
+    text-align: center;
+    padding: 15px;
+    border: solid 2px;
+    font-family: lato;
+}
+.otrosdatos {
+    margin: 10px;
+    margin-top: 250px;
+    height: 50px;
+    width: 1080px;
+    position: absolute;
+    display: flex;
+}
+.otrosdatos label {
+    height: 100%;
+    width: 150px;
+    background-color: rgb(117, 117, 117);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border: solid 2px;
+    font-family: laviossa;
+    font-size: 13px;
+}
+.otrosdatos input {
+    height: 100%;
+    width: 390px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(59, 59, 59);
+    text-align: center;
+    padding: 15px;
+    border: solid 2px;
+    font-family: lato;
+}
+.nombreacud {
+    margin: 10px;
+    margin-top: 330px;
+    height: 50px;
+    width: 1080px;
+    position: absolute;
+    display: flex;
+}
+.nombreacud label {
+    height: 100%;
+    width: 150px;
+    background-color: rgb(117, 117, 117);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: solid 2px;
+    font-family: laviossa;
+    font-size: 11px;
+}
+.nombreacud input {
+    height: 100%;
+    width: 930px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(59, 59, 59);
+    text-align: center;
+    padding: 15px;
+    border: solid 2px;
+    font-family: lato;
+}
+.otrosdatosacu {
+    margin: 10px;
+    margin-top: 410px;
+    height: 50px;
+    width: 1080px;
+    position: absolute;
+    display: flex;
+}
+.otrosdatosacu label {
+    height: 100%;
+    width: 150px;
+    background-color: rgb(117, 117, 117);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border: solid 2px;
+    font-family: laviossa;
+    font-size: 15px;
+}
+.otrosdatosacu input {
+    height: 100%;
+    width: 390px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(59, 59, 59);
+    text-align: center;
+    padding: 15px;
+    border: solid 2px;
+    font-family: lato;
+}
+.desplegables {
+    margin: 10px;
+    margin-top: 490px;
+    height: 50px;
+    width: 1080px;
+    position: absolute;
+    display: flex;
+}
+.desplegables label{
+    height: 100%;
+    width: 150px;
+    background-color: rgb(117, 117, 117);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border: solid 2px;
+    font-family: laviossa;
+    font-size: 10px;
+}
+.desplegables select{
+    height: 100%;
+    width: 390px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(59, 59, 59);
+    text-align: center;
+    padding: 15px;
+    border: solid 2px;
+    font-family: 'lato';
+    font-size: smaller;
+    font-weight: bold;
+}
+.btnconfirm{
+    margin-right: 20px;
+    margin-top: 570px;
+    height: 50px;
+    width: 1080px;
+    position: absolute;
+    display: flex;
+}
+.btnconfirm label{
+    height: 100%;
+    width: 150px;
+    background-color: rgb(117, 117, 117);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border: solid 2px;
+    font-family: laviossa;
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+}
+
