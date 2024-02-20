@@ -7,7 +7,7 @@ if (!empty($_POST["btniniciar"])) {
         $contraseña = $_POST["contraseña"];
         $sql = $conn->query("select * from Talleristas where Numdoc='$usuario' and contraseña='$contraseña'");
         if ($datos = $sql->fetch_object()) {
-            header("location:regalumn.php");
+            header("location:menuintra.html");
         } else {
             echo 'ACCESO DENEGADO';
         }

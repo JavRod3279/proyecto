@@ -16,7 +16,9 @@
 <body>
     <section>
         <header>
-            <img src="img\logo_nuevo.png" alt="" width="80" height="64" class="logo">
+            <a class="navbar-brand" href="menuintra.html">
+                <img src="img\logo_nuevo.png" alt="" width="80" height="64" class="logo">
+             </a>
             <div class="titulo">
                 <h1>REGISTRO DE ESTUDIANTES</h1>
             </div>

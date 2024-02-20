@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Javier Rodriguez">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu_intra.css">
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <title>Menu Intranet</title>
+</head>
+<body>
+
+    <input type ="checkbox" id="check">
+
+<!-- BARRA SUPERIOR NOMBRE-->
+
+        <header>           
+            <label for="check">            
+                <i class="fa fa-bars" aria-hidden="true" id="sidebar_btn"></i>
+            </label>
+            <div class="left_area">
+                <h4>MATISSES TFA <span>1.0.0</span></h4>
+            </div>
+            
+            <div class="right_area">
+                <a href="#" class = "logout_btn">Salir</a>
+            </div>
+<!--FIN BARRA SUPERIOR NOMBRE-->            
+            
+        </header>
+
+<!-- INICIO SIDEBAR -->
+        <div class="sidebar">
+                <center>
+                    <img src="http://localhost\atenea\frontend\img\logo_nuevo_100.png" class ="profile_image" alt="">
+                    <!--<h4>MATISSES TFA</h4>-->
+                </center>
+                <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i><span>VENTAS</span></a>       
+                <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>COMPRAS</span></a> 
+                <a href="regalumn.php" target=“_blank”><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>ALUMNOS</span></a> 
+                <a href="#"><i class="fa fa-paint-brush" aria-hidden="true"></i><span>TALLERISTAS</span></a> 
+                <a href="#"><i class="fa fa-truck" aria-hidden="true"></i><span>PROVEEDORES</span></a> 
+                <a href="#"><i class="fa fa-users" aria-hidden="true"></i><span>CLIENTES</span></a> 
+                <a href="#"><i class="fa fa-image" aria-hidden="true"></i><span>ENMARCACION</span></a> 
+                <a href="#"><i class="fa fa-bar-chart" aria-hidden="true"></i><span>INFORMES</span></a>    
+        </div>
+<!-- INICIO SIDEBAR -->
+
+<div class="content"></div>
+
+</body>
+
+</html> 

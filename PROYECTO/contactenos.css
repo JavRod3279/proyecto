@@ -127,6 +127,7 @@ section{
     background-color: #ffffff7a;
     overflow: auto;
     scroll-behavior: smooth;
+    display: flex;
 }
 .sectioncontact .datos{
     max-width: 350px;

@@ -1,0 +1,148 @@
+@font-face {
+    font-family: laviossa;
+    src: url(font\Laviossa-Medium.otf);
+}
+
+
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --width: 80px;
+    --padding: 10px;
+    --bgcolor: rgb(52,52,52);
+    --hovercolor: rgb(23,23,23);
+}
+
+/* header*/
+header{
+    position: fixed;    
+    background: #96989e;
+    padding: 15PX;
+    height: 50px;
+    width: 100%;   
+    box-shadow: 0px 0px 20px 5px;
+}
+
+.left_area h4{
+    color:rgb(228, 236, 236);
+    font-family: laviossa;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 900;
+
+}
+
+.left_area span{
+    color:black;
+}
+
+.logout_btn{
+    padding: 10px;
+    background: #484d5071;
+    text-decoration: none;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(228, 236, 236);
+}
+
+.logout_btn:hover{
+    background-color:#21374471;
+}
+
+.sidebar{
+    background: #484d50c5;
+    margin-top: 50px;
+    padding-top: 30px;
+    position:fixed;
+    left:0;
+    width: 250px;
+    height: 100%;
+    transition: 0.7s;
+    transition-property:left;
+}
+
+.sidebar .profile_image{
+    width: 100px;
+    height: 100%;
+    margin-bottom: 15px;
+}
+
+.sidebar a{
+    color:rgb(21, 21, 104);
+    display: block;
+    width: 100%;
+    line-height: 50px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background-color;
+}
+
+.sidebar a:hover{
+    background-color:#21374471;
+    color: rgb(228, 236, 236);
+}
+
+.sidebar i{
+    padding-right: 15px;
+}
+
+label #sidebar_btn{
+    z-index: 1;
+    color: #ffff;
+    position: fixed;
+    cursor:pointer;
+    left: 300px;
+    font-size: 20px;
+    margin: 5px 0;
+    transition: 0.5s;
+    transition-property: color;
+}
+
+label #sidebar_btn:hover{
+    color: #3f5cbda2;
+}
+
+#check:checked ~ .sidebar{
+    left: -190px;
+}
+
+#check:checked ~ .sidebar a span{
+    display: none;
+}
+
+#check:checked ~ .sidebar a{
+    font-size: 20px;
+    margin-left: 170px;
+    width: 80px;
+}
+
+.content{
+    margin-left: 250px;
+    background-image: url(../frontend/img/LogoMatissesFondoBlanco2.png  );
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+    transition: 0.7s;
+}
+
+#check:checked ~ .content{
+    margin-left: 60px;
+}
+
+#check{
+    display: none;
+}
